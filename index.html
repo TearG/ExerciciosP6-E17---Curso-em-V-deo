@@ -3,19 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Modelo de Exercício</title>
+  <title>Tabuada</title>
   <link href="estilo.css" rel="stylesheet" type="text/css" />
 </head>
-<body onload="carregar()">
+<body>
   <header>
-    <h1>Hora do Dia</h1>
+    <h1>Tabuada</h1>
   </header>
   <section>
-      <div id="msg">
-        Aqui vai aparecer a mensagem...
+      <div>
+        <p>Número: <input type="number" name="mum" id="txtn">
+        <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
       </div>
-    <div id="foto">
-      <img id="imagem" src="Manha2.png" alt="Foto do Dia">
+    <div>
+      <select name="tabuada" id="seltab" size="10">
+        <option>Digite um número acima!</option>
+      </select>
     </div>
   </section>
   <footer>
